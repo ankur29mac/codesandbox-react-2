@@ -1,4 +1,27 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  box-sizing: border-box;
+}
+
+.ninja-list {
+  border: 1px solid black;
+  width: 750px;
+  margin: 10px auto;
+}
+
+.ninja {
+  width: 700px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px #eee;
+  padding: 20px;
+  background-color: #e5e5e5;
+}
+
+.ninja button {
+  margin-top: 10px;
+  border: 1px solid blue;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px black;
 }
